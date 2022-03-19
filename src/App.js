@@ -10,13 +10,35 @@ import FooterComponents from "./baitaplayout/FooterComponents";
 import DataBinding from "./databinding/DataBinding";
 import DataBindingFunc from "./databinding/DataBindingFunc";
 import HandleEvent from "./HandleEvent/HandleEvent";
+import Rendering_Condition from "./Rendering_Condition/Rendering_Condition";
+import Ex1StateDemo from "./StateDemo/Ex1StateDemo";
+import RenderWithMap from "./RenderWithMap/RenderWithMap";
+import QuanLyDSPhim from "./RenderWithMap/QuanLyDSPhim";
+import DemoProps from "./DemoProps/DemoProps";
+import ChildComponent from "./DemoProps/ChildComponent";
+import ShoesShop from "./ExShoeShops/ShoesShop";
+import BaiTapXemChiTietSP from "./BaiTapXemChiTietSP/BaiTapXemChiTietSP";
+import GioHang from "./BaiTapXemChiTietSP/GioHang";
+import BaiTapGioHangRedux from "./DemoRedux/BaiTapGioHangRedux/BaiTapGioHangRedux";
+import GameXucXac from "./DemoRedux/GameXucXacRedux/GameXucXac";
+import BaiTapThuKinh from "./BaiTapThuKinh/BaiTapThuKinh";
 
 function App() {
   return (
     <div className="App">
-      <DataBinding/>
+      {/* <DataBinding/>
       <DataBindingFunc/>
       <HandleEvent/>
+      <Rendering_Condition/> 
+      <Ex1StateDemo/> */}
+      {/* <RenderWithMap/> */}
+      {/* <QuanLyDSPhim/> */}
+      {/* <DemoProps/> */}
+      {/* <ShoesShop/> */}
+      {/* <BaiTapXemChiTietSP/> */}
+      {/* <BaiTapGioHangRedux/> */}
+      {/* <GameXucXac/> */}
+      <BaiTapThuKinh/>
     </div>
   );
 }
